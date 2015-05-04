@@ -1,0 +1,16 @@
+{
+  "name": "dictrew",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gruntfile.js",
+  "author": "<jennifer.proust@gmail.com>",
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-requirejs": "0.4.x",
+    "grunt-contrib-watch": "0.6.x"
+  },
+  "scripts": {
+    "requirejs": "r.js -o build.js"
+  },
+  "engine": "node 0.10.x"
+}
