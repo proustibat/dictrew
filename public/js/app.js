@@ -28,4 +28,6 @@ require.config({
 
     // Backbone.history.start();
 // });
+
+
 console.log("allo");

@@ -4,3 +4,8 @@ body, h1, p {
     /*font-family: 'Overlock', cursive;*/
     font-family: 'Telex', sans-serif;
 }
+
+#layout-element {
+    height: 100px;
+    background-color: red;
+}
