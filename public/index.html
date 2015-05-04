@@ -16,32 +16,45 @@
         <link rel="stylesheet" href="css/main.min.css">
 
         <script src="./bower_components/requirejs/require.js" data-main="./js/app"></script>
-    </head>
+  </head>
+
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <!-- Add your site or application content here -->
-    <body>
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
+
+
+      <div class="main-page container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Dictrew</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="disabled"><a href="#about">About</a></li>
+            <li class="disabled"><a href="#contact">Contact</a></li>
           </ul>
-        </nav>
-        <h3 class="text-muted">Dictrew</h3>
+        </div><!--/.nav-collapse -->
       </div>
-
-      <div class="main-container row">
-
+    </nav>
         <div class="list-group">
           <a href="#" class="list-group-item">
             <p class="glyphicon glyphicon-play-circle"></p>
-            <h4 class="list-group-item-heading">Mot en hébreu</h4>
-            <p class="list-group-item-text">traduction</p>
+            <h4 class="list-group-item-heading">Mot en <br/>hébreu</h4>
+            <p class="list-group-item-text">traduction<br/>traduction<br/>traduction</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <p class="glyphicon glyphicon-play-circle"></p>
+            <h4 class="list-group-item-heading">Mot en français</h4>
+            <p class="list-group-item-text">traduction<br/>traduction</p>
           </a>
           <a href="#" class="list-group-item">
             <p class="glyphicon glyphicon-play-circle"></p>
@@ -51,12 +64,7 @@
           <a href="#" class="list-group-item">
             <p class="glyphicon glyphicon-play-circle"></p>
             <h4 class="list-group-item-heading">Mot en français</h4>
-            <p class="list-group-item-text">traduction</p>
-          </a>
-          <a href="#" class="list-group-item">
-            <p class="glyphicon glyphicon-play-circle"></p>
-            <h4 class="list-group-item-heading">Mot en français</h4>
-            <p class="list-group-item-text">traduction</p>
+            <p class="list-group-item-text">traduction<br/>traduction<br/>traduction</p>
           </a>
           <a href="#" class="list-group-item">
             <p class="glyphicon glyphicon-play-circle"></p>
@@ -65,12 +73,13 @@
           </a>
         </div>
 
+        <footer class="footer">
+          <p>&copy; Proustibat 2015</p>
+        </footer>
       </div>
 
-      <footer class="footer">
-        <p>&copy; Proustibat 2015</p>
-      </footer>
 
-    </div> <!-- /container -->
-    </body>
+</body>
 </html>
+
+

@@ -1,4 +1,58 @@
 @charset "UTF-8";
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\000035}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\0000326}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\0000330}}
+body {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\0000333}}
+ol, ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\0000336}}
+blockquote, q {
+  quotes: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\0000339}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/vendors\/_reset\.scss}line{font-family:\0000344}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -553,12 +607,15 @@ l'ancien code. */
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
-/* Space out content a bit */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000330}}
+/* Customize container */
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000339}}
+  .container {
+    max-width: 730px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000345}}
 body {
   font-family: "Telex", Arial, Helvetica, sans-serif;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 50px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/utils\/_mixins\.scss}line{font-family:\0000334}}
   .zh_CN body {
     font-family: Simhei, "Telex", Arial, Helvetica, sans-serif; }
@@ -569,95 +626,22 @@ body {
   .ja_JP body {
     font-family: "MS PGothic", "MS Gothic", "Telex", Arial, Helvetica, sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000335}}
-h2 {
-  font-family: "Puritan", "Times New Roman", Times, serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/utils\/_mixins\.scss}line{font-family:\0000334}}
-  #asian h2 {
-    font-family: Simhei, "Puritan", "Times New Roman", Times, serif; }
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000340}}
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px; }
-
-/* Custom page header */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000348}}
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5; }
-
-/* Make the masthead heading the same height as the navigation */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000349}}
+.main-page {
+  padding: 20px 15px;
+  margin-right: auto;
+  margin-left: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000353}}
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px; }
-
-/* Custom page footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000360}}
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5; }
-
-/* Customize container */
-@media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000368}}
-  .container {
-    max-width: 730px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000372}}
-.container-narrow > hr {
-  margin: 30px 0; }
-
-/* Main marketing message and sign up button */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000377}}
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000381}}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px; }
-
-/* Supporting marketing content */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000387}}
-.marketing {
-  margin: 40px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000390}}
-.marketing p + h4 {
-  margin-top: 28px; }
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000397}}
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0; }
-
-  /* Space out the masthead */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\00003104}}
-  .header {
-    margin-bottom: 30px; }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\00003108}}
-  .jumbotron {
-    border-bottom: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\00003114}}
-.main-container .list-group-item .glyphicon {
-  float: left;
-  font-size: 24pt;
-  margin-right: 20px;
-  vertical-align: middle;
-  line-height: 1.5em; }
+  .main-page .list-group-item {
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000355}}
+    .main-page .list-group-item .glyphicon {
+      float: left;
+      font-size: 24pt;
+      margin-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/dictrew\/public\/sass\/main\.scss}line{font-family:\0000362}}
+    .main-page .list-group-item .list-group-item-heading,
+    .main-page .list-group-item .list-group-item-text {
+      padding-left: 55px; }
 
 /*# sourceMappingURL=main.min.css.map */
