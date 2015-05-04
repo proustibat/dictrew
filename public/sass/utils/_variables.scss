@@ -24,7 +24,11 @@ $font-face: (
 
 $fonts: (
     primary: (
-        family: ( 'abchanel-couture', $DEFAULT_SANS_SERIF_FONT),
+        /*font-family: 'Puritan', sans-serif;*/
+        /*font-family: 'Mako', sans-serif;*/
+        /*font-family: 'Overlock', cursive;*/
+        // font-family: 'Telex', sans-serif;
+        family: ( 'Telex', $DEFAULT_SANS_SERIF_FONT),
         exception: (
             (selector: ".zh_CN",  family: Simhei),
             (selector: ".zh_HK",  family: Simhei),
@@ -32,7 +36,7 @@ $fonts: (
         )
     ),
     secondary: (
-        family: ('fontface_name2', $DEFAULT_SERIF_FONT),
+        family: ('Puritan', $DEFAULT_SERIF_FONT),
         exception: (
             (selector: "#asian", family: Simhei),
         )
