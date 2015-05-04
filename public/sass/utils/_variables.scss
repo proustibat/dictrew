@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*------------------------------------*\
+    CONFIG
+\*------------------------------------*/
+
+$namespace: "dictrew";
+
+$path-images: "../img/";
+$path-fonts:  "../fonts/";
+
+
+/*------------------------------------*\
+    FONTS
+\*------------------------------------*/
+
+$DEFAULT_SANS_SERIF_FONT: Arial, Helvetica, sans-serif;
+$DEFAULT_SERIF_FONT: 'Times New Roman', Times, serif;
+
+$font-face: (
+    (name: "fontface_name1", file: "file-font1"),
+    (name: "fontface_name2", file: "file-font2", weight: bold, style: italic)
+);
+
+$fonts: (
+    primary: (
+        family: ( 'abchanel-couture', $DEFAULT_SANS_SERIF_FONT),
+        exception: (
+            (selector: ".zh_CN",  family: Simhei),
+            (selector: ".zh_HK",  family: Simhei),
+            (selector: ".ja_JP",  family: ('MS PGothic', 'MS Gothic')),
+        )
+    ),
+    secondary: (
+        family: ('fontface_name2', $DEFAULT_SERIF_FONT),
+        exception: (
+            (selector: "#asian", family: Simhei),
+        )
+    )
+);
+
+
+/*------------------------------------*\
+    COLORS
+\*------------------------------------*/
+
+// http://davidwalsh.name/sass-color-variables-dont-suck
+// http://sachagreif.com/sass-color-variables/
+
+$red:   #ff0000;
+$green: #00ff00;
+$blue:  #0000ff;
+$white: #ffffff;
+$grey:  #888888;
+$black: #000000;
+
+$colors: (
+    // purpose: $my-color,
+    background-primary: $white,
+    background-secondary: $black,
+    border-primary: $grey,
+    border-secondary: $grey,
+    title-primary: $black,
+    title-secondary: $white,
+    text-primary: $black,
+    text-secondary: $white,
+    text-hover-primary: $white,
+    text-hover-secondary: $black,
+    input-text: $black,
+    input-background: $white,
+    input-border: $grey,
+    error: $red,
+    success: $green,
+    button-text: $black,
+    button-text-hover: $black,
+    button-background: $white,
+    button-background-hover: $white,
+    button-border: $grey,
+);
+
+
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+
+$use-border-box: true;
+
+$FIFTH:   100% / 5;
+$QUARTER: 100% / 4;
+$TIER:    100% / 3;
+$HALF:    100% / 2;
+
+$Z_INDEX_BASE: 0;
+$Z_INDEX_MAX: 2147483647;
+
+$z-indexes: (
+    below:    -1,
+    default:  $Z_INDEX_BASE,
+    nav:      50,
+    dropdown: 60,
+    overlay:  100,
+    modal:    110,
+    modal-ui: 120,
+    over:     1000
+);
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+$enable-responsive: true;
+
+// http://mydevice.io/devices/
+// http://www.sitepoint.com/managing-responsive-breakpoints-sass/
+// http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32
+// http://www.w3schools.com/browsers/browsers_display.asp
+
+$BREAKPOINTS: (
+    mobile-portrait-min:      320px,
+    mobile-portrait-common:   360px,
+    mobile-portrait-max:      400px,
+    mobile-landscape-min:     480px,
+    mobile-landscape-max:     640px, //667
+    tablet-portrait-min:      640px, //480
+    tablet-portrait-common:   768px,
+    tablet-portrait-max:      800px,
+    tablet-landscape-min:     960px, //800
+    tablet-landscape-common: 1024px,
+    tablet-landscape-max:    1280px, //1366
+    desktop-x-small:         1024px, //1152
+    desktop-small:           1280px,
+    desktop-medium:          1440px, //1366
+    desktop-large:           1600px, //1680
+    desktop-x-large:         1920px  //2560
+);
+
+$mediaqueries: (
+    print:                  "print",
+    retina:                 "screen and (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi)",
+
+    mobile-portrait-only:   "only screen and (max-width: 400px)",
+    mobile-landscape-only:  "only screen and (min-width: 401px) and (max-width: 640px)",
+    mobile-only:            "only screen and (max-width: 640px)",
+    tablet-portrait-only:   "only screen and (min-width: 641px) and (max-width: 800px)",
+    tablet-landscape-only:  "only screen and (min-width: 801px) and (max-width: 1280px)",
+    tablet-only:            "only screen and (min-width: 641px) and (max-width: 1280px)",
+    desktop-small-only:     "only screen and (min-width: 1281px) and (max-width: 1440px)",
+    desktop-medium-only:    "only screen and (min-width: 1441px) and (max-width: 1600px)",
+    desktop-large-only:     "only screen and (min-width: 1601px)"
+    // mobile-portrait-up:     "only screen and (min-width: 401px)",
+    // mobile-landscape-up:    "only screen and (min-width: 641px)",
+    // tablet-portrait-up:     "only screen and (min-width: 801px)",
+    // tablet-landscape-up:    "only screen and (min-width: 1281px)",
+    // desktop-small-up:       "only screen and (min-width: 1281px)",
+    // desktop-medium-up:      "only screen and (min-width: 1441px)",
+    // desktop-large-up:       "only screen and (min-width: 1601px)",
+);
+
+
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
+
+// $my-var: 1;

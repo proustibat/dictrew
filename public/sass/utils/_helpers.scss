@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+%invisible,
+.invisible {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    clip: rect(0 0 0 0);
+    outline: none;
+}
+
+/*.ie8 */.force-opacity * {
+    filter: inherit;
+}
+
+/*------------------------------------*\
+    VERTICAL ALIGN FIX
+
+    <div class="valign-wrapper [halign-left]">
+        <div [id="mon_element_a_aligner"] class="valign-middle-box"> // IMPORTANT: redéfinir la font-size de cet élément !
+        </div>
+    </div>
+\*------------------------------------*/
+
+.halign-left { text-align: left; }
+.halign-center { text-align: center; }
+.halign-right { text-align: right; }
+
+.valign-wrapper {
+    font-size: 0;
+
+    .valign-middle-box {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        vertical-align: middle !important;
+    }
+
+    .valign-bottom-box {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        vertical-align: bottom !important;
+    }
+
+    &:after {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        content: '';
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+
+.clearfix {
+    clear: both;
+}
+
+.backface-hidden {
+    @include prefix(backface-visibility, hidden);
+    @include prefix(perspective, 1000);
+}

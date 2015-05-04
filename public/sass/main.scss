@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import "vendors/reset";
+
+@import "utils/reseter";
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/helpers";
+
+@import "base";
+
+
+// @import "layout/navigation";
+// @import "layout/header";
+// @import "layout/footer";
+
+// @import "components/forms";
+// @import "components/buttons";
+// @import "components/slideshow";
+
+// @import "pages/home";
+// @import "pages/productfile";
+
+@import "shame";
+
+
+
+body, h1, p {
+    /*font-family: 'Puritan', sans-serif;*/
+    /*font-family: 'Mako', sans-serif;*/
+    /*font-family: 'Overlock', cursive;*/
+    font-family: 'Telex', sans-serif;
+}
+
+#layout-element {
+    height: 100px;
+    background-color: red;
+}
+
+

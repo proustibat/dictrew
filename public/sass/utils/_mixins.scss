@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@mixin font-face($name, $file, $weight, $style) {
+    $path-fonts: "../fonts/" !global !default;
+    @font-face {
+        font-family: '#{$name}';
+        src: url('#{$path-fonts}#{$file}.eot');
+        src: url('#{$path-fonts}#{$file}.eot?#iefix') format('embedded-opentype'),
+             url('#{$path-fonts}#{$file}.woff') format('woff'),
+             url('#{$path-fonts}#{$file}.ttf') format('truetype'),
+             url('#{$path-fonts}#{$file}.svgz##{$name}') format('svg'),
+             url('#{$path-fonts}#{$file}.svg##{$name}') format('svg');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@mixin respond-to($media) {
+    $media-query: map-get($mediaqueries, $media);
+    @media #{$media-query} {
+        @content;
+    }
+}
+
+@mixin font-family($id) {
+    @if map-has-key($fonts, $id) {
+        $font: map-get($fonts, $id);
+
+        font-family: map-get($font, "family");
+
+        @if map-has-key($font, "exception") {
+            @each $exception in map-get($font, "exception") {
+                $selector: map-get($exception, "selector");
+                #{$selector} & {
+                    font-family: map-get($exception, "family"), map-get($font, "family");
+                }
+            }
+        }
+    }
+    //TODO else debug info
+}
+
+@mixin font-size($font-size, $line-height:null) {
+    $base-font-size: 12 !global !default;
+    font-size: $font-size +px;
+    font-size: ($font-size / $base-font-size)*1rem;
+    @if $line-height != null { line-height: $line-height / $font-size; }
+}
+
+@mixin prefix($property, $value) {
+    -webkit-#{$property}: $value;
+       -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+         -o-#{$property}: $value;
+            #{$property}: $value;
+}
+
+@mixin box-sizing($value) {
+    -webkit-box-sizing: $value;
+       -moz-box-sizing: $value;
+        -ms-box-sizing: $value;
+         -o-box-sizing: $value;
+            box-sizing: $value;
+}
+
+@mixin transition($property, $duration, $easing, $delay) {
+    -webkit-transition: $property $duration $easing $delay;
+       -moz-transition: $property $duration $easing $delay;
+        -ms-transition: $property $duration $easing $delay;
+         -o-transition: $property $duration $easing $delay;
+            transition: $property $duration $easing $delay;
+}
+
+@mixin opacity($opacity) {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$ieOpacity})"; // IE8
+    filter: alpha(opacity=#{$opacity * 100}); // IE7
+    opacity: $opacity;
+}
+
+@mixin inline-block($valign) {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    @if $valign != "" { vertical-align :$valign; }
+}
+
+@mixin input-placeholder($color) {
+                   &.placeholder { color: $color }
+              &:-moz-placeholder { color: $color }
+             &::-moz-placeholder { color: $color }
+         &:-ms-input-placeholder { color: $color }
+    &::-webkit-input-placeholder { color: $color }
+}
+
+@mixin absolute-centered($width, $height, $align: "both") {
+    position: absolute;
+    width: #{$width}px;
+    height: #{$height}px;
+
+    @if $align == "both" {
+        top: 50%;
+        left: 50%;
+        margin-left: -#{$width/2}px;
+        margin-top: -#{$height/2}px;
+    }
+
+    @if $align == "horizontal" {
+        top: 0;
+        left: 50%;
+        margin-left: -#{$width/2}px;
+    }
+
+    @if $align == "vertical" {
+        top: 50%;
+        left: 0;
+        margin-top: -#{$height/2}px;
+    }
+}
+
+//TODO système de sprite à revoir !!!
+//@mixin sprite($filename, $width, $height, $pos, $originalSize, $pos2x:null) {
+//    $path-images: "../img/" !global !default;
+//
+//    display: inline-block;
+//    *display: inline;
+//    zoom: 1;
+//    width: #{$width}px;
+//    height: #{$height}px;
+//    overflow: hidden;
+//    background-image: url(#{$path-images}#{$filename}.png);
+//    background-repeat: no-repeat;
+//    background-position: $pos;
+//
+//    @media screen and (-webkit-min-device-pixel-ratio: 2),
+//                      (min--moz-device-pixel-ratio: 2),
+//                      (min-device-pixel-ratio: 2),
+//                      (min-resolution: 2dppx),
+//                      (min-resolution: 192dpi) {
+//        background-image: url(#{$path-images}#{$filename}@2x.png);
+//        background-size: $originalSize + px;
+//        @if $pos2x != null { background-position: $pos2x; }
+//    }
+//}
+//
+//@mixin bg-sprite($url, $position, $bgsize) {
+//
+//    background-image: url('../images/' + $url + '.png');
+//    background-repeat: no-repeat;
+//    background-position: $position;
+//
+//    @media screen and (-webkit-min-device-pixel-ratio:2),
+//                      (-webkit-min-device-pixel-ratio: 2),
+//                      (min--moz-device-pixel-ratio: 2),
+//                      (min-resolution: 2dppx),
+//                      (min-resolution: 192dpi){
+//        .no-ie &{
+//            background-image: url('../images/' + $url + '@2x.png');
+//            background-size: $bgsize + px;
+//        }
+//    }
+//}

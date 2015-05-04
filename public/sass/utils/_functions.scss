@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@function color($purpose) {
+  @return map-get($colors, $purpose);
+}
+
+@function z($layer) {
+  @return map-get($z-indexes, $layer);
+}

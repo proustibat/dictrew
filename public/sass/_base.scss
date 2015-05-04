@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/*------------------------------------*\
+    VIEWPORT
+\*------------------------------------*/
+
+// @-webkit-viewport {}
+// @-moz-viewport {}
+// @-ms-viewport {}
+// @-o-viewport {}
+@viewport {
+    // zoom: 1;
+    // width: device-width;
+    // max-zoom: 3;
+    // min-zoom: 0.50;
+    // user-zoom: fixed;
+}
+
+
+
+/*------------------------------------*\
+    FONTFACE
+\*------------------------------------*/
+
+@each $font in $font-face {
+    $weight: if(map-has-key($font, "weight"), map-get($font, "weight"), normal);
+    $style: if(map-has-key($font, "style"), map-get($font, "style"), normal);
+    @include font-face(map-get($font, "name"), map-get($font, "file"), $weight, $style);
+}
+
+
+
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+
+@if $use-border-box == true {
+    *{
+        &, &:before, &:after {
+            @include box-sizing(border-box);
+        }
+    }
+}
+
+
+/*------------------------------------*\
+    GLOBAL LAYOUT
+\*------------------------------------*/
+
+/*Obligation d'envelopper dans le container-new comme si c'était le body.
+ Comme nous n'avons pas de reset TOTAL avec la nouvelle architecture, et que nous gardons
+ les anciens fichiers CSS, nous sommes obligés de réecrire à partir du container-new. */
+
+#n4-wrapper{
+    font: 0.75em/2 Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    color: color(text-primary);
+    background: color(background-primary);
+    margin: 0;
+    z-index:1;
+
+
+
+/*------------------------------------*\
+    HEADINGS
+\*------------------------------------*/
+
+h1,
+.#{$namespace}-h1 {
+    @include font-family(primary);
+    @include font-size(20, 20);
+    font-weight: bold;
+    color: color(title-primary);
+    margin: 0;
+    padding: 0;
+}
+
+// h2,
+// .#{$namespace}-h2 {}
+
+// h3,
+// .#{$namespace}-h3 {}
+
+// h4,
+// .#{$namespace}-h4 {}
+
+// h5,
+// .#{$namespace}-h5 {}
+
+// h6,
+// .#{$namespace}-h6 {}
+
+}
+
+/*------------------------------------*\
+    PARAGRAPH
+\*------------------------------------*/
+
+.#{$namespace}-p1 {
+    @include font-family(secondary);
+    @include font-size(14, 16);
+    color: color(text-primary);
+}
+
+// .#{$namespace}-p2 {}
+
+
+
+/*------------------------------------*\
+    LINK
+\*------------------------------------*/
+
+.#{$namespace}-a1 {
+    @include font-family(secondary);
+    @include font-size(14, 16);
+    color: color(text-primary);
+
+    &:hover,
+    &:active {
+        color: color(text-hover-primary);
+    }
+}
+
+// .#{$namespace}-a2 {
+
+
+//     &:hover,
+//     &:active {
+
+//     }
+// }
+
+
+
+/*------------------------------------*\
+    GLOBAL CLASS
+\*------------------------------------*/
+
+// .my-class {}
+
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@if $enable-responsive == true {
+
+    // @include respond-to(mobile-only) {}
+    // @include respond-to(tablet-only) {}
+
+}
