@@ -2,3 +2,5 @@
 /node_modules/
 /bower_components/
 /test/coverage/
+/public/bower_components
+/public/node_modules
