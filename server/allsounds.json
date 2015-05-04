@@ -1,0 +1,307 @@
+﻿[{
+        "url": "son.wav",
+        "category": "Personal pronouns",
+        "translations": {
+            "he_IL": "אני",
+            "en_US": "I",
+            "en_FR": "Je (f, m)"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Personal pronouns",
+        "translations": {
+            "he_IL": "את",
+            "en_US": "You",
+            "en_FR": "Tu (m.)"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Personal pronouns",
+        "translations": {
+            "he_IL": "אתה",
+            "en_US": "You",
+            "en_FR": "Tu (f.)"
+        }
+    },
+
+    {
+        "url": "son.wav",
+        "category": "Personal pronouns",
+        "translations": {
+            "he_IL": "היא",
+            "en_US": "She",
+            "en_FR": "Elle"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "אימה",
+            "en_US": "Mother",
+            "en_FR": "Mère"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "יין",
+            "en_US": "Wine",
+            "en_FR": "Vin"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "ים",
+            "en_US": "Sea",
+            "en_FR": "Mer"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "מים",
+            "en_US": "Water",
+            "en_FR": "Eau"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "מתנה",
+            "en_US": "Gift, Present",
+            "en_FR": "Cadeau"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Miscellaneous",
+        "translations": {
+            "he_IL": "היי!",
+            "en_US": "Hi!",
+            "en_FR": "Salut !"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Question words",
+        "translations": {
+            "he_IL": "מה",
+            "en_US": "What?",
+            "en_FR": "Quoi ?"
+        }
+    },
+
+
+    {
+        "url": "son.wav",
+        "category": "Question words",
+        "translations": {
+            "he_IL": "מי",
+            "en_US": "Who?",
+            "en_FR": "Qui ?"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "איש",
+            "en_US": "Man",
+            "en_FR": "Homme"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "אישה",
+            "en_US": "Woman",
+            "en_FR": "Femme"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "גלידה",
+            "en_US": "Ice-cream",
+            "en_FR": "Glace"
+        }
+    },
+
+
+    {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "דלג",
+            "en_US": "Flag",
+            "en_FR": "Drapeau"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "הר",
+            "en_US": "Mountain",
+            "en_FR": "Montagne"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "ילד",
+            "en_US": "Boy",
+            "en_FR": "Garçon"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "ילדה",
+            "en_US": "Girl",
+            "en_FR": "Fille"
+        }
+    },
+
+
+
+    {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "שיר",
+            "en_US": "Song",
+            "en_FR": "Chanson"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "שמש",
+            "en_US": "Sun",
+            "en_FR": "Soleil"
+
+        }
+    },
+
+
+
+    {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "תלמיד",
+            "en_US": "Student (m)",
+            "en_FR": "Etudiant"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Nouns",
+        "translations": {
+            "he_IL": "תלמידה",
+            "en_US": "Student (f)",
+            "en_FR": "Etudiante"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Miscellaneous",
+        "translations": {
+            "he_IL": "גם",
+            "en_US": "Also",
+            "en_FR": "Aussi"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Miscellaneous",
+        "translations": {
+            "he_IL": "הינה",
+            "en_US": "There (\"There is Ruth\"...)",
+            "en_FR": "Voici"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Miscellaneous",
+        "translations": {
+            "he_IL": "שם",
+            "en_US": "There (\"Go over there\"...)",
+            "en_FR": "Là"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Foreign words",
+        "translations": {
+            "he_IL": "מרגרינה",
+            "en_US": "Margarine",
+            "en_FR": "Margarine"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Foreign words",
+        "translations": {
+            "he_IL": "תה",
+            "en_US": "Tea",
+            "en_FR": "Thé"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Cities",
+        "translations": {
+            "he_IL": "נתניה",
+            "en_US": "Nethania",
+            "en_FR": "Nethania"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "אירלנד",
+            "en_US": "Ireland",
+            "en_FR": "Irelande"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "אנגליה",
+            "en_US": "England",
+            "en_FR": "Angleterre"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "גרמניה",
+            "en_US": "Germany",
+            "en_FR": "Allemagne"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "דניה",
+            "en_US": "Denmark",
+            "en_FR": "Danemark"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "ירדן",
+            "en_US": "Jordan",
+            "en_FR": "Jordanie"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "ישראל",
+            "en_US": "Israel",
+            "en_FR": "Israël"
+        }
+    }, {
+        "url": "son.wav",
+        "category": "Countries",
+        "translations": {
+            "he_IL": "תימן",
+            "en_US": "Yemen",
+            "en_FR": "Yémen"
+        }
+    }
+]
