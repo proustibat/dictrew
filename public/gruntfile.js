@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                     baseUrl: "./js",
                     mainConfigFile: "js/app.js",
                     name: "app",
-                    out: "dist/app.js",
+                    out: "js/app.min.js",
                     optimize: "uglify2",
                     generateSourceMaps: true,
                     preserveLicenseComments: false

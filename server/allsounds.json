@@ -1,5 +1,5 @@
 ﻿[{
-        "url": "son.wav",
+        "url": "sounds/arguing.wav",
         "category": "Personal pronouns",
         "translations": {
             "he_IL": "אני",
@@ -7,7 +7,7 @@
             "en_FR": "Je (f, m)"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Personal pronouns",
         "translations": {
             "he_IL": "את",
@@ -15,7 +15,7 @@
             "en_FR": "Tu (m.)"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Personal pronouns",
         "translations": {
             "he_IL": "אתה",
@@ -25,7 +25,7 @@
     },
 
     {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Personal pronouns",
         "translations": {
             "he_IL": "היא",
@@ -33,7 +33,7 @@
             "en_FR": "Elle"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "אימה",
@@ -41,7 +41,7 @@
             "en_FR": "Mère"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "יין",
@@ -49,7 +49,7 @@
             "en_FR": "Vin"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "ים",
@@ -57,7 +57,7 @@
             "en_FR": "Mer"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "מים",
@@ -65,7 +65,7 @@
             "en_FR": "Eau"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "מתנה",
@@ -73,7 +73,7 @@
             "en_FR": "Cadeau"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Miscellaneous",
         "translations": {
             "he_IL": "היי!",
@@ -81,7 +81,7 @@
             "en_FR": "Salut !"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Question words",
         "translations": {
             "he_IL": "מה",
@@ -92,7 +92,7 @@
 
 
     {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Question words",
         "translations": {
             "he_IL": "מי",
@@ -100,7 +100,7 @@
             "en_FR": "Qui ?"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "איש",
@@ -108,7 +108,7 @@
             "en_FR": "Homme"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "אישה",
@@ -116,7 +116,7 @@
             "en_FR": "Femme"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "גלידה",
@@ -127,7 +127,7 @@
 
 
     {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "דלג",
@@ -135,7 +135,7 @@
             "en_FR": "Drapeau"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "הר",
@@ -143,7 +143,7 @@
             "en_FR": "Montagne"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "ילד",
@@ -151,7 +151,7 @@
             "en_FR": "Garçon"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "ילדה",
@@ -159,11 +159,8 @@
             "en_FR": "Fille"
         }
     },
-
-
-
     {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "שיר",
@@ -171,7 +168,7 @@
             "en_FR": "Chanson"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "שמש",
@@ -180,11 +177,8 @@
 
         }
     },
-
-
-
     {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "תלמיד",
@@ -192,7 +186,7 @@
             "en_FR": "Etudiant"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Nouns",
         "translations": {
             "he_IL": "תלמידה",
@@ -200,7 +194,7 @@
             "en_FR": "Etudiante"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Miscellaneous",
         "translations": {
             "he_IL": "גם",
@@ -208,7 +202,7 @@
             "en_FR": "Aussi"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Miscellaneous",
         "translations": {
             "he_IL": "הינה",
@@ -216,7 +210,7 @@
             "en_FR": "Voici"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Miscellaneous",
         "translations": {
             "he_IL": "שם",
@@ -224,7 +218,7 @@
             "en_FR": "Là"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Foreign words",
         "translations": {
             "he_IL": "מרגרינה",
@@ -232,7 +226,7 @@
             "en_FR": "Margarine"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Foreign words",
         "translations": {
             "he_IL": "תה",
@@ -240,7 +234,7 @@
             "en_FR": "Thé"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Cities",
         "translations": {
             "he_IL": "נתניה",
@@ -248,7 +242,7 @@
             "en_FR": "Nethania"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "אירלנד",
@@ -256,7 +250,7 @@
             "en_FR": "Irelande"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "אנגליה",
@@ -264,7 +258,7 @@
             "en_FR": "Angleterre"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "גרמניה",
@@ -272,7 +266,7 @@
             "en_FR": "Allemagne"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "דניה",
@@ -280,7 +274,7 @@
             "en_FR": "Danemark"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "ירדן",
@@ -288,7 +282,7 @@
             "en_FR": "Jordanie"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "ישראל",
@@ -296,7 +290,7 @@
             "en_FR": "Israël"
         }
     }, {
-        "url": "son.wav",
+        "url": "sounds/answer.wav",
         "category": "Countries",
         "translations": {
             "he_IL": "תימן",
