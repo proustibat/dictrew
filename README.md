@@ -1,1 +1,6 @@
 # dictrew
+
+
+## License
+
+[MIT](./LICENSE)
